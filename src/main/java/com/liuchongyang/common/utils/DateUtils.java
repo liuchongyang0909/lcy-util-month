@@ -72,12 +72,4 @@ public class DateUtils {
 		return new Date(t3);
 
 	}
-
-	public static void main(String[] args) {
-		for (int i = 0;i<100;i++) {
-			Date date = DateUtils.random(new Date(900000000), new Date());
-			SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-			System.out.println(df.format(date));
-		}
-	}
 }

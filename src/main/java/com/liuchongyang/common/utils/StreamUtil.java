@@ -8,6 +8,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StreamUtil {
+	
+	/**
+	 * 
+	 * @Title: read 
+	 * @Description: 流处理工具类
+	 * @param in
+	 * @return
+	 * @throws IOException
+	 * @return: List<String>
+	 */
 	public static List<String> read(InputStream in) throws IOException {
 		BufferedReader read = new BufferedReader(new InputStreamReader(in));
 		List<String> list = new ArrayList<String>();
