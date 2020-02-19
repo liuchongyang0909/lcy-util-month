@@ -174,4 +174,12 @@ public class StringUtil {
 		
 		return m;
 	}
+	
+	public static boolean isHttpUrl2(String src){
+		if(src.startsWith("http")) {
+			return true;
+		} else {
+			return false;
+		}
+	}
 }
